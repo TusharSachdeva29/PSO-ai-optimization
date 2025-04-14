@@ -1,0 +1,47 @@
+=== PSO Path Planning Experiment Summary ===
+
+== Configuration Results ==
+
+Configuration: PSO(swarm=30, iter=100, weights=[0.4,0.3,0.2,0.1])
+Path Found: False
+Path Length: 5
+Final Fitness: 3.1000
+Execution Time: 0.0230 seconds
+
+Configuration: PSO(swarm=50, iter=150, weights=[0.5,0.2,0.2,0.1])
+Path Found: False
+Path Length: 6
+Final Fitness: 2.7000
+Execution Time: 0.0568 seconds
+
+Configuration: PSO(swarm=20, iter=80, weights=[0.3,0.4,0.2,0.1])
+Path Found: False
+Path Length: 5
+Final Fitness: 3.4000
+Execution Time: 0.0134 seconds
+
+== Environment Results ==
+
+Environment: Original
+Path Found: False
+Path Length: 5
+Final Fitness: 3.1000
+Execution Time: 0.0254 seconds
+
+Environment: Maze
+Path Found: False
+Path Length: 5
+Final Fitness: 3.5649
+Execution Time: 0.0140 seconds
+
+Environment: Corridor
+Path Found: False
+Path Length: 4
+Final Fitness: 2.7657
+Execution Time: 0.0224 seconds
+
+Environment: Warehouse
+Path Found: False
+Path Length: 5
+Final Fitness: 3.1000
+Execution Time: 0.1299 seconds
